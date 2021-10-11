@@ -1,7 +1,0 @@
-Filled container:
-Container contains 5 elements.
-1: It is Sphere. Radius: r = 4. Surface area = 201.061930. Material dencity: 1000.213100
-2: It is Parallelepiped. First edge: a = 1. Second edge: b = 2. Third edge: c = 3. Surface area = 22.000000. Material dencity: 3424.141000
-3: It is Parallelepiped. First edge: a = 3. Second edge: b = 4. Third edge: c = 5. Surface area = 94.000000. Material dencity: 234.024000
-4: It is Sphere. Radius: r = 6. Surface area = 452.389342. Material dencity: 9442.243200
-5: It is Regular Tetrahedron. Edge length: a = 7. Surface area = 84.870490. Material dencity: 7443.134000
