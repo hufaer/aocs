@@ -1,0 +1,3 @@
+Arithmetic mean: 44064.611054
+Surface areas processed:
+1. It is Sphere. Radius: r = 100. Surface area = 125663.706144. Material dencity: 2000.123000
