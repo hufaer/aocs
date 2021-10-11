@@ -1,0 +1,5 @@
+Filled container:
+Container contains 3 elements.
+1: It is Parallelepiped. First edge: a = 15. Second edge: b = 15. Third edge: c = 20. Surface area = 1650.000000. Material dencity: 1234.560000
+2: It is Parallelepiped. First edge: a = 15. Second edge: b = 15. Third edge: c = 20. Surface area = 1650.000000. Material dencity: 1234.560000
+3: It is Parallelepiped. First edge: a = 200. Second edge: b = 200. Third edge: c = 300. Surface area = 320000.000000. Material dencity: 5000.250000
