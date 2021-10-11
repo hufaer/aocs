@@ -1,4 +1,0 @@
-Arithmetic mean: 170.864352
-Surface areas processed:
-1. It is Sphere. Radius: r = 4. Surface area = 201.061930. Material dencity: 1000.213100
-2. It is Sphere. Radius: r = 6. Surface area = 452.389342. Material dencity: 9442.243200
