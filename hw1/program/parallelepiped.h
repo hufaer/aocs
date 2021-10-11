@@ -22,7 +22,7 @@ void InRnd(parallelepiped& p);
 // Вывод параметров параллелепипеда в форматируемый поток
 void Out(parallelepiped& p, FILE* file);
 
-// Вычисление длины параллелепипеда
+// Вычисление площади поверхности параллелепипеда
 double SurfaceArea(parallelepiped& p);
 
 #endif //__parallelepiped__
