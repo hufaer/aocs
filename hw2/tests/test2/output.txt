@@ -1,0 +1,12 @@
+Filled container:
+Container contains 10 elements.
+1: It is Regular Tetrahedron. Edge length: a = 56. Surface area = 5431.711333. Material dencity: 4231.968200
+2: It is Regular Tetrahedron. Edge length: a = 46. Surface area = 3665.019509. Material dencity: 8805.624989
+3: It is Regular Tetrahedron. Edge length: a = 43. Surface area = 3202.561943. Material dencity: 3415.374554
+4: It is Sphere. Radius: r = 4. Surface area = 201.061930. Material dencity: 48.909268
+5: It is Parallelepiped. First edge: a = 11. Second edge: b = 80. Third edge: c = 4. Surface area = 2488.000000. Material density: 574.385449
+6: It is Sphere. Radius: r = 57. Surface area = 40828.138126. Material dencity: 3563.679678
+7: It is Parallelepiped. First edge: a = 98. Second edge: b = 65. Third edge: c = 6. Surface area = 14696.000000. Material density: 786.162725
+8: It is Parallelepiped. First edge: a = 75. Second edge: b = 78. Third edge: c = 54. Surface area = 28224.000000. Material density: 5401.320536
+9: It is Regular Tetrahedron. Edge length: a = 64. Surface area = 7094.480108. Material dencity: 2794.690146
+10: It is Parallelepiped. First edge: a = 40. Second edge: b = 61. Third edge: c = 20. Surface area = 8920.000000. Material density: 3015.927213
