@@ -1,0 +1,3 @@
+Arithmetic mean: 107766.666667
+Surface areas processed:
+1. It is Parallelepiped. First edge: a = 200. Second edge: b = 200. Third edge: c = 300. Surface area = 320000.000000. Material density: 5000.250000
