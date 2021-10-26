@@ -1,66 +1,66 @@
-//------------------------------------------------------------------------------
-// main.cpp - содержит главную функцию, 
-// обеспечивающую простое тестирование
-//------------------------------------------------------------------------------
+//----------------------------------------------------------------------------вЂ”
+// main.cpp - СЃРѕРґРµСЂР¶РёС‚ РіР»Р°РІРЅСѓСЋ С„СѓРЅРєС†РёСЋ,
+// РѕР±РµСЃРїРµС‡РёРІР°СЋС‰СѓСЋ РїСЂРѕСЃС‚РѕРµ С‚РµСЃС‚РёСЂРѕРІР°РЅРёРµ
+//----------------------------------------------------------------------------вЂ”
 
 #define _CRT_SECURE_NO_WARNINGS
-#include <cstdlib> // для функций rand() и srand()
-#include <ctime>   // для функции time()  
+#include <cstdlib> // РґР»СЏ С„СѓРЅРєС†РёР№ rand() Рё srand()
+#include <ctime> // РґР»СЏ С„СѓРЅРєС†РёРё time()
 #include <cstring>
 #include "container.h"
 
 void errMessage1() {
-    printf("incorrect command line!\nWaited:\ncommand -f infile outfile01 outfile02\n"
-        "Or:\ncommand -n number outfile01 outfile02\n");
+	printf("incorrect command line!\nWaited:\ncommand -f infile outfile01 outfile02\n"
+		"Or:\ncommand -n number outfile01 outfile02\n");
 }
 
 void errMessage2() {
-    printf("incorrect qualifier value!\nWaited:\ncommand -f infile outfile01 outfile02\n"
-        "Or:\ncommand -n number outfile01 outfile02\n");
+	printf("incorrect qualifier value!\nWaited:\ncommand -f infile outfile01 outfile02\n"
+		"Or:\ncommand -n number outfile01 outfile02\n");
 }
 
-//------------------------------------------------------------------------------
+//----------------------------------------------------------------------------вЂ”
 int main(int argc, char* argv[]) {
-    if (argc != 5) {
-        errMessage1();
-        return 1;
-    }
+	if (argc != 5) {
+		errMessage1();
+		return 1;
+	}
 
-    printf("Start");
-    Container c;
+	printf("Start");
+	Container c;
 
-    if (!strcmp(argv[1], "-f")) {
-        FILE* file;
-        file = fopen(argv[2], "r");
-        c.In(file);
-    }
-    else if (!strcmp(argv[1], "-n")) {
-        auto size = atoi(argv[2]);
-        if ((size < 1) || (size > 10000)) {
-            printf("incorrect number of figures = %d. Set 0 < number <= 10000\n", size);
-            return 3;
-        }
-        // системные часы в качестве инициализатора
-        srand(static_cast<unsigned int>(time(0)));
-        // Заполнение контейнера генератором случайных чисел
-        c.InRnd(size);
-    }
-    else {
-        errMessage2();
-        return 2;
-    }
+	if (!strcmp(argv[1], "-f")) {
+		FILE* file;
+		file = fopen(argv[2], "r");
+		c.In(file);
+	}
+	else if (!strcmp(argv[1], "-n")) {
+		auto size = atoi(argv[2]);
+		if ((size < 1) || (size > 10000)) {
+			printf("incorrect number of figures = %d. Set 0 < number <= 10000\n", size);
+			return 3;
+		}
+		// СЃРёСЃС‚РµРјРЅС‹Рµ С‡Р°СЃС‹ РІ РєР°С‡РµСЃС‚РІРµ РёРЅРёС†РёР°Р»РёР·Р°С‚РѕСЂР°
+		srand(static_cast<unsigned int>(time(0)));
+		// Р—Р°РїРѕР»РЅРµРЅРёРµ РєРѕРЅС‚РµР№РЅРµСЂР° РіРµРЅРµСЂР°С‚РѕСЂРѕРј СЃР»СѓС‡Р°Р№РЅС‹С… С‡РёСЃРµР»
+		c.InRnd(size);
+	}
+	else {
+		errMessage2();
+		return 2;
+	}
 
-    // Вывод содержимого контейнера в файл
-    FILE* file1;
-    file1 = fopen(argv[3], "w");
-    fprintf(file1, "Filled container:\n");
-    c.Out(file1);
+	// Р’С‹РІРѕРґ СЃРѕРґРµСЂР¶РёРјРѕРіРѕ РєРѕРЅС‚РµР№РЅРµСЂР° РІ С„Р°Р№Р»
+	FILE* file1;
+	file1 = fopen(argv[3], "w");
+	fprintf(file1, "Filled container:\n");
+	c.Out(file1);
 
-    // Вывод 2й части задания
-    FILE* file2;
-    file2 = fopen(argv[4], "w");
-    c.ProcessingVar21(file2);
+	// Р’С‹РІРѕРґ 2Р№ С‡Р°СЃС‚Рё Р·Р°РґР°РЅРёСЏ
+	FILE* file2;
+	file2 = fopen(argv[4], "w");
+	c.ProcessingVar21(file2);
 
-    printf("\nFinished");
-    return 0;
+	printf("\nFinished");
+	return 0;
 }
