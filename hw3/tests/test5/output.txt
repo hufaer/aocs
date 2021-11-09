@@ -1,0 +1,4 @@
+Container is store 3 shapes:
+It is Regular Tetrahedron: Edge length: a = 50. Surface area = 4330.127018922193. Material density = 145.123
+It is Regular Tetrahedron: Edge length: a = 76. Surface area = 10004.325464517835. Material density = 123.123
+It is Regular Tetrahedron: Edge length: a = 99. Surface area = 16975.829964982564. Material density = 650.0

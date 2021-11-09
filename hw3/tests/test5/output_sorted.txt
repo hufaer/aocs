@@ -1,0 +1,4 @@
+Arithmetic mean: 10436.760816140864
+Surface areas processed:
+It is Regular Tetrahedron: Edge length: a = 99. Surface area = 16975.829964982564. Material density = 650.0
+
