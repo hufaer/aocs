@@ -1,0 +1,2 @@
+Container is store 1 shapes:
+It is Parallelepiped: First edge: a = 10. Second edge: b = 20. Third edge: c = 30. Surface area = 2200.0. Material density = 4567.823
