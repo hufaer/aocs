@@ -1,0 +1,6 @@
+Arithmetic mean: 11475.097294823143
+Surface areas processed:
+It is Sphere: Radius: r = 57. Surface area = 40828.13812605295. Material density = 3563.679678
+It is Parallelepiped: First edge: a = 98. Second edge: b = 65. Third edge: c = 6. Surface area = 14696.0. Material density = 786.162725
+It is Parallelepiped: First edge: a = 75. Second edge: b = 78. Third edge: c = 54. Surface area = 28224.0. Material density = 5401.320536
+
