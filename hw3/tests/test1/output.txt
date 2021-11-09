@@ -1,0 +1,8 @@
+Container is store 7 shapes:
+It is Parallelepiped: First edge: a = 10. Second edge: b = 20. Third edge: c = 30. Surface area = 2200.0. Material density = 2022.145
+It is Sphere: Radius: r = 27. Surface area = 9160.884177867836. Material density = 245.542
+It is Sphere: Radius: r = 44. Surface area = 24328.49350939936. Material density = 6784.0
+It is Regular Tetrahedron: Edge length: a = 99. Surface area = 16975.829964982564. Material density = 345.525
+It is Parallelepiped: First edge: a = 20. Second edge: b = 40. Third edge: c = 60. Surface area = 8800.0. Material density = 2323.4
+It is Regular Tetrahedron: Edge length: a = 50. Surface area = 4330.127018922193. Material density = 5000.2
+It is Sphere: Radius: r = 70. Surface area = 61575.216010359945. Material density = 543.2
